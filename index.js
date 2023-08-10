@@ -35,7 +35,7 @@ app.post("/", function (req, res) {
 
   const options = {
     method: "POST",
-    auth: "kedist1:ad38f0b0d59e81febec6c79d3a5a26e45-us21",
+    auth: "kedist1:d38f0b0d59e81febec6c79d3a5a26e45-us21",
   };
 
   const request = https.request(url, options, function (response) {
