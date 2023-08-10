@@ -35,7 +35,7 @@ app.post("/", function (req, res) {
 
   const options = {
     method: "POST",
-    auth: "kedist1:d38f0b0d59e81febec6c79d3a5a26e45-us21",
+    auth: "kedist1:355acb3377a67a573f091ebd11bc0f49-us21",
   };
 
   const request = https.request(url, options, function (response) {
@@ -64,6 +64,7 @@ app.listen(process.env.PORT || 3000, function () {
 
 // api key
 // d38f0b0d59e81febec6c79d3a5a26e45-us21
+// 355acb3377a67a573f091ebd11bc0f49-us21
 
 // audience key
 //932b0d80bc
