@@ -2,6 +2,7 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const request = require("request");
 const https = require("https");
+require("dotenv").config();
 
 const app = express();
 app.use(express.static("public"));
@@ -61,4 +62,5 @@ app.post("/failure", function (req, res) {
 
 app.listen(process.env.PORT || 3000, function () {
   console.log("server is running at port 3000.");
+  console.log(process.env.API_KEY);
 });
